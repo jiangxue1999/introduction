@@ -1,4 +1,12 @@
 <!--pages/zcy/zcy.wxml-->
-
-<image src="../../images/zcyimg1.png" mode="widthFix"></image>
+<view>
+<view wx:for="{{list}}" wx:key="index" wx:if="{{index==2}}"><!--wx:for是微信数据绑定的一种方式，该数组有多少数据就显示多少个view-->
+    <!--index为每个数据对应的下标-->
+    
+    <view class="text-align:center">姓名：{{item.name}}</view>
+    <view class="text-align:center">年龄：{{item.age}}</view>
+    <view class="text-align:center">学校：{{item.school}}</view>
+</view>
+</view>
+<!--<image src="../../images/zcyimg1.png" mode="widthFix"></image>-->
 <button type="primary">点赞</button>
