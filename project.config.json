@@ -43,6 +43,7 @@
   "libVersion": "2.16.1",
   "appid": "wxa079329cc8bd43c2",
   "projectname": "xiaochengxu",
+  "cloudfunctionRoot": "cloudfunction/",
   "debugOptions": {
     "hidedInDevtools": []
   },
