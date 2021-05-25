@@ -1,3 +1,9 @@
-
-<image class = "im" src="/images/fyl.png"></image>
-<button type="primary">点赞</button>
+<view>
+<view wx:for="{{list}}" wx:key="index" wx:if="{{index==3}}"><!--wx:for是微信数据绑定的一种方式，该数组有多少数据就显示多少个view-->
+    <!--index为每个数据对应的下标-->
+    
+    <view>name:{{item.name}}</view>
+    <view>age:{{item.age}}</view>
+    <view>school:{{item.school}}</view>
+</view>
+</view>
