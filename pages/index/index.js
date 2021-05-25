@@ -5,7 +5,7 @@ const back = wx.getBackgroundAudioManager();
 
 Page({
   data: {
-    motto: 'R.E.M',
+    motto: 'R.E.Ma',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
