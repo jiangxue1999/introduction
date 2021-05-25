@@ -1,1 +1,9 @@
-<image class = "im" src="/images/yyf.jpg" mode = "aspectFit" align-self = "middle"></image>
+<view>
+<view wx:for="{{list}}" wx:key="index" wx:if="{{index==5}}"><!--wx:for是微信数据绑定的一种方式，该数组有多少数据就显示多少个view-->
+    <!--index为每个数据对应的下标-->
+    
+    <view>{{item.name}}</view>
+    <view>{{item.age}}</view>
+    <view>{{item.school}}</view>
+</view>
+</view>
